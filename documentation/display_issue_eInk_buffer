@@ -1,0 +1,69 @@
+NEXT: Clean Screen - Cont...
+_PowerOn : 17
+_Update_Full : 1
+_PowerOff : 1
+-> WORKS
+
+NEXT: Show Partial Box - Black - Cont...
+_PowerOn : 1
+_Update_Part : 1
+-> r0: WORKS
+
+NEXT: Show Partial Box - White - Cont...
+_Update_Part : 1
+-> r0: WORKS
+
+NEXT: Show Partial Box - Black - Cont...
+_Update_Part : 1
+->r1:
+!!!! Expect to see black box r1, but both appear (r=0 and r1)
+!!!! I think box r0 remains still in the buffer and is not cleared?????
+
+NEXT: Show Partial Box - White - Cont...
+_Update_Part : 1
+-> r0 and r1 disapear
+
+NEXT: Show Partial Box - Black - Cont...
+_Update_Part : 1
+!!!! Expect to see black box r3, but all appear (r=0,r1 and r3)
+
+NEXT: Show Partial Box - White - Cont...
+_Update_Part : 1
+-> r0,r1,r2  disapear
+
+....
+at the end of the loop, all 4 boxes (r0-r3 are shown), but only box r3 should be visible
+
+
+
+*************************************
+NEXT: Start next loop - update with value - Cont...
+NEXT: Show Partial Box - Text  White - Cont...
+!!!!  r0 with value and r1,r2,r3 as black boxes
+!!!! I think cleaned boxes remain in the buffer as black
+
+NEXT: Show Partial Box - Text  White - Cont...
+_Update_Part : 1
+!!!! Wouh..r0 is updated with value, all other boxes disappear
+
+*** BELOW loop continues for all increments, always same sequence
+
+NEXT: Show Partial Box - Text  White - Cont...
+_Update_Part : 1
+ r0 with updated value and r1,r2,r3 as black boxes
+ 
+ NEXT: Show Partial Box - Text  White - Cont...
+_Update_Part : 1
+ r0 is updated with value, all other boxes disappear
+
+
+**********************************************
+Continuing the loop I get all kinds of combinations:
+1) r0=white, r1=value, r3 and r4 are black or
+2) r0,r1 = value, r2&r3 are blank
+3) r0 blank, r1 =value, r2 & r3 blank
+....
+ 
+
+
+

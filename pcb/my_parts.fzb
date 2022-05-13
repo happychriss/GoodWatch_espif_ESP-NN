@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.9b.2021-09-22.CD-348-0-f0af53a9" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="cn_1dd274c613ce4dd6aeb2c836a80fc337_1" modelIndex="5793" path="/home/development/Documents/Fritzing/parts/user/cn_1dd274c613ce4dd6aeb2c836a80fc337_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_fd4f863b4c53587a6c5f177dcf57baff_2" modelIndex="85462674" path="/home/development/Documents/Fritzing/parts/user/prefix0000_fd4f863b4c53587a6c5f177dcf57baff_2.fzp">
+            <property name="form" value="♀ (female)"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="cn_6368d1f750188642fb59b67e7d7288aa_3" modelIndex="5795" path="/home/development/Documents/Fritzing/parts/user/cn_6368d1f750188642fb59b67e7d7288aa_3.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_0062518eca6e416493452e0ff5f6b3ee_1" modelIndex="85462675" path="/home/development/Documents/Fritzing/parts/user/prefix0000_0062518eca6e416493452e0ff5f6b3ee_1.fzp">
+            <property name="chip label" value="IC"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="adafruit_dcs_a436c5c9c7eebb412d86dc68ef78f935_2" modelIndex="5791" path="/home/development/Documents/Fritzing/parts/user/adafruit_dcs_a436c5c9c7eebb412d86dc68ef78f935_2.fzp">
+            <property name="part number" value="Adafruit #3013"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="adafruit_99a68b9d127cc28a77d5ac0f66423dd8_2" modelIndex="5789" path="/home/development/Documents/Fritzing/parts/user/adafruit_99a68b9d127cc28a77d5ac0f66423dd8_2.fzp">
+            <property name="part number" value="Adafruit #3006"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_f977208c5f391a40611286f6d79d850d_2" modelIndex="5799" path="/home/development/Documents/Fritzing/parts/user/prefix0000_f977208c5f391a40611286f6d79d850d_2.fzp">
+            <property name="form" value="♀ (female)"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_92ddc2280ce103dcbd8b371ffaa39e15_1" modelIndex="5797" path="/home/development/Documents/Fritzing/parts/user/prefix0000_92ddc2280ce103dcbd8b371ffaa39e15_1.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_699447bf8064fd3a03a372e059ee7235_1" modelIndex="85462677" path="/home/development/Documents/Fritzing/parts/user/prefix0000_699447bf8064fd3a03a372e059ee7235_1.fzp">
+            <property name="form" value="molex"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000_b41a1a2ddaf6cf91f4407e470a0c7a02_1" modelIndex="85462728" path="/home/development/Documents/Fritzing/parts/user/prefix0000_b41a1a2ddaf6cf91f4407e470a0c7a02_1.fzp">
+            <property name="form" value="♂ (shrouded male)"/>
+            <views/>
+        </instance>
+    </instances>
+</module>
